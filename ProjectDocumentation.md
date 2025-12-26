@@ -4,7 +4,6 @@
 1. [Overview](#overview)
 2. [Architecture](#architecture)
 3. [System Components](#system-components)
-4. [Setup & Installation](#setup--installation)
 5. [Usage](#usage)
 6. [Project Structure](#project-structure)
 7. [Agents](#agents)
@@ -58,45 +57,6 @@ Each agent:
 
 ---
 
-## Setup & Installation
-
-### Prerequisites
-- Python 3.7 or higher
-- Groq API key (obtain from [console.groq.com](https://console.groq.com))
-
-### Step 1: Clone/Download Repository
-```bash
-# Navigate to project directory
-cd kasparro-ai-agentic-content-generation-system-Adwaidh-Prakasan
-```
-
-### Step 2: Create Environment Variables
-Create a `.env` file in the project root:
-```
-GROQ_API_KEY=your_groq_api_key_here
-```
-
-### Step 3: Install Dependencies
-```bash
-pip install -r requirements.txt
-```
-
-### Step 4: Create Output Directory
-```bash
-mkdir outputs
-```
-
-### Step 5: Run the Pipeline
-```bash
-python run.py
-```
-
-Expected output:
-```
-All pages generated successfully.
-```
-
----
 
 ## Usage
 
